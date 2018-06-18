@@ -29,7 +29,7 @@ New-RetentionCompliancePolicy [-Name] <String> [-Comment <String>] [-Confirm] [-
 ```
 
 ## DESCRIPTION
-New policies are not valid and will not be applied until a retention rule is added to the policy.
+New policies are not valid and will not be applied until a retention rule is added to the policy. In addition, a minimum of one parameter which defines a location (Exchange, SharePoint, OneDrive, etc.)  must be defined to create a policy.
 
 You need to be assigned permissions in the Office 365 Security & Compliance Center before you can use this cmdlet. For more information, see Permissions in Office 365 Security & Compliance Center (https://go.microsoft.com/fwlink/p/?LinkId=511920).
 
